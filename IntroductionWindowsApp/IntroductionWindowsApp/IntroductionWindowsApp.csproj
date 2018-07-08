@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{18EC846A-F5CB-4059-A3F1-DB757FACA366}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IntroductionWindowsApp</RootNamespace>
+    <AssemblyName>IntroductionWindowsApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AkashUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AkashUi.Designer.cs">
+      <DependentUpon>AkashUi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArifUddinKabbo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArifUddinKabbo.Designer.cs">
+      <DependentUpon>ArifUddinKabbo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fatema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fatema.Designer.cs">
+      <DependentUpon>Fatema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaimunaUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaimunaUi.Designer.cs">
+      <DependentUpon>MaimunaUi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MethodPracticeUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MethodPracticeUi.Designer.cs">
+      <DependentUpon>MethodPracticeUi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NasirUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NasirUi.Designer.cs">
+      <DependentUpon>NasirUi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="shofikAhmed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="shofikAhmed.Designer.cs">
+      <DependentUpon>shofikAhmed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sraban75Ui.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sraban75Ui.Designer.cs">
+      <DependentUpon>Sraban75Ui.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentEntryUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentEntryUi.Designer.cs">
+      <DependentUpon>StudentEntryUi.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ArifUddinKabbo.resx">
+      <DependentUpon>ArifUddinKabbo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fatema.resx">
+      <DependentUpon>Fatema.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Tanvir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tanvir.Designer.cs">
+      <DependentUpon>Tanvir.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AkashUi.resx">
+      <DependentUpon>AkashUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaimunaUi.resx">
+      <DependentUpon>MaimunaUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MethodPracticeUi.resx">
+      <DependentUpon>MethodPracticeUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NasirUi.resx">
+      <DependentUpon>NasirUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="shofikAhmed.resx">
+      <DependentUpon>shofikAhmed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sraban75Ui.resx">
+      <DependentUpon>Sraban75Ui.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentEntryUi.resx">
+      <DependentUpon>StudentEntryUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tanvir.resx">
+      <DependentUpon>Tanvir.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
