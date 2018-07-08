@@ -44,9 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AkashUi.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="AkashUi.cs" />
     <Compile Include="AkashUi.Designer.cs">
       <DependentUpon>AkashUi.cs</DependentUpon>
     </Compile>
@@ -55,6 +53,12 @@
     </Compile>
     <Compile Include="ArifUddinKabbo.Designer.cs">
       <DependentUpon>ArifUddinKabbo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EvrahimUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EvrahimUi.Designer.cs">
+      <DependentUpon>EvrahimUi.cs</DependentUpon>
     </Compile>
     <Compile Include="Fatema.cs">
       <SubType>Form</SubType>
@@ -108,6 +112,9 @@
     </Compile>
     <EmbeddedResource Include="ArifUddinKabbo.resx">
       <DependentUpon>ArifUddinKabbo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EvrahimUi.resx">
+      <DependentUpon>EvrahimUi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Fatema.resx">
       <DependentUpon>Fatema.cs</DependentUpon>
