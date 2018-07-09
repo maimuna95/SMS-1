@@ -17,6 +17,7 @@ namespace IntroductionWindowsApp
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MethodPracticeUi());
+            Application.Run(new Akash());
         }
     }
 }

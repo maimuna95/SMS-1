@@ -44,15 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AkashUi.cs" />
-    <Compile Include="AkashUi.Designer.cs">
-      <DependentUpon>AkashUi.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ArifUddinKabbo.cs">
+    <Compile Include="Akash.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ArifUddinKabbo.Designer.cs">
-      <DependentUpon>ArifUddinKabbo.cs</DependentUpon>
+    <Compile Include="Akash.Designer.cs">
+      <DependentUpon>Akash.cs</DependentUpon>
     </Compile>
     <Compile Include="EvrahimUi.cs">
       <SubType>Form</SubType>
@@ -96,12 +92,6 @@
     <Compile Include="Obaedullah.Designer.cs">
       <DependentUpon>Obaedullah.cs</DependentUpon>
     </Compile>
-    <Compile Include="PijushUI.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PijushUI.Designer.cs">
-      <DependentUpon>PijushUI.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="shofikAhmed.cs">
@@ -122,8 +112,8 @@
     <Compile Include="StudentEntryUi.Designer.cs">
       <DependentUpon>StudentEntryUi.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ArifUddinKabbo.resx">
-      <DependentUpon>ArifUddinKabbo.cs</DependentUpon>
+    <EmbeddedResource Include="Akash.resx">
+      <DependentUpon>Akash.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EvrahimUi.resx">
       <DependentUpon>EvrahimUi.cs</DependentUpon>
@@ -137,9 +127,6 @@
     <Compile Include="Tanvir.Designer.cs">
       <DependentUpon>Tanvir.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AkashUi.resx">
-      <DependentUpon>AkashUi.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="MaimunaUi.resx">
       <DependentUpon>MaimunaUi.cs</DependentUpon>
     </EmbeddedResource>
@@ -151,9 +138,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NasirUi.resx">
       <DependentUpon>NasirUi.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PijushUI.resx">
-      <DependentUpon>PijushUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
