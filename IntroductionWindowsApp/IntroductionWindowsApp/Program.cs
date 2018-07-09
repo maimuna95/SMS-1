@@ -18,6 +18,7 @@ namespace IntroductionWindowsApp
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MethodPracticeUi());
             Application.Run(new Akash());
+            Application.Run(new ArifUddinForm());
         }
     }
 }
