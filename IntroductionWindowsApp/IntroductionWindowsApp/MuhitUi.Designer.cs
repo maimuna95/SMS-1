@@ -31,6 +31,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.studentTextBox = new System.Windows.Forms.TextBox();
             this.saveButton = new System.Windows.Forms.Button();
+            this.resultTextBox = new System.Windows.Forms.TextBox();
+            this.ShowButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -59,11 +61,29 @@
             this.saveButton.UseVisualStyleBackColor = true;
             this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
             // 
+            // resultTextBox
+            // 
+            this.resultTextBox.Location = new System.Drawing.Point(233, 145);
+            this.resultTextBox.Name = "resultTextBox";
+            this.resultTextBox.Size = new System.Drawing.Size(136, 20);
+            this.resultTextBox.TabIndex = 3;
+            // 
+            // ShowButton
+            // 
+            this.ShowButton.Location = new System.Drawing.Point(233, 186);
+            this.ShowButton.Name = "ShowButton";
+            this.ShowButton.Size = new System.Drawing.Size(130, 19);
+            this.ShowButton.TabIndex = 4;
+            this.ShowButton.Text = "Show";
+            this.ShowButton.UseVisualStyleBackColor = true;
+            // 
             // MuhitUi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(735, 261);
+            this.Controls.Add(this.ShowButton);
+            this.Controls.Add(this.resultTextBox);
             this.Controls.Add(this.saveButton);
             this.Controls.Add(this.studentTextBox);
             this.Controls.Add(this.label1);
@@ -79,5 +99,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox studentTextBox;
         private System.Windows.Forms.Button saveButton;
+        private System.Windows.Forms.TextBox resultTextBox;
+        private System.Windows.Forms.Button ShowButton;
     }
 }
