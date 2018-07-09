@@ -33,12 +33,13 @@
             this.saveButton = new System.Windows.Forms.Button();
             this.resultTextBox = new System.Windows.Forms.TextBox();
             this.ShowButton = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(77, 38);
+            this.label1.Location = new System.Drawing.Point(137, 37);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 13);
             this.label1.TabIndex = 0;
@@ -77,11 +78,21 @@
             this.ShowButton.Text = "Show";
             this.ShowButton.UseVisualStyleBackColor = true;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(137, 152);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(37, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Result";
+            // 
             // MuhitUi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(735, 261);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.ShowButton);
             this.Controls.Add(this.resultTextBox);
             this.Controls.Add(this.saveButton);
@@ -101,5 +112,6 @@
         private System.Windows.Forms.Button saveButton;
         private System.Windows.Forms.TextBox resultTextBox;
         private System.Windows.Forms.Button ShowButton;
+        private System.Windows.Forms.Label label2;
     }
 }
