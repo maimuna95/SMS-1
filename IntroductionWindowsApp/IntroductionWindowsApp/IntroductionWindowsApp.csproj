@@ -78,6 +78,12 @@
     <Compile Include="MethodPracticeUi.Designer.cs">
       <DependentUpon>MethodPracticeUi.cs</DependentUpon>
     </Compile>
+    <Compile Include="MuhitUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MuhitUi.Designer.cs">
+      <DependentUpon>MuhitUi.cs</DependentUpon>
+    </Compile>
     <Compile Include="NasirUi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -133,6 +139,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MethodPracticeUi.resx">
       <DependentUpon>MethodPracticeUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MuhitUi.resx">
+      <DependentUpon>MuhitUi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NasirUi.resx">
       <DependentUpon>NasirUi.cs</DependentUpon>
