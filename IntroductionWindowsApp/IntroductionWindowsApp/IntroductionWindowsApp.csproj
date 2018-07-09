@@ -62,6 +62,12 @@
     <Compile Include="Fatema.Designer.cs">
       <DependentUpon>Fatema.cs</DependentUpon>
     </Compile>
+    <Compile Include="HafijulIslamSMSUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HafijulIslamSMSUi.Designer.cs">
+      <DependentUpon>HafijulIslamSMSUi.cs</DependentUpon>
+    </Compile>
     <Compile Include="MaimunaUi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +133,9 @@
     <Compile Include="Tanvir.Designer.cs">
       <DependentUpon>Tanvir.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="HafijulIslamSMSUi.resx">
+      <DependentUpon>HafijulIslamSMSUi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MaimunaUi.resx">
       <DependentUpon>MaimunaUi.cs</DependentUpon>
     </EmbeddedResource>
