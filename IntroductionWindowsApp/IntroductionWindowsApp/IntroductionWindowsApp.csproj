@@ -74,6 +74,12 @@
     <Compile Include="HafijulIslamSMSUi.Designer.cs">
       <DependentUpon>HafijulIslamSMSUi.cs</DependentUpon>
     </Compile>
+    <Compile Include="Kamruzzaman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kamruzzaman.Designer.cs">
+      <DependentUpon>Kamruzzaman.cs</DependentUpon>
+    </Compile>
     <Compile Include="MaimunaUi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -144,6 +150,9 @@
     </Compile>
     <EmbeddedResource Include="HafijulIslamSMSUi.resx">
       <DependentUpon>HafijulIslamSMSUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kamruzzaman.resx">
+      <DependentUpon>Kamruzzaman.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MaimunaUi.resx">
       <DependentUpon>MaimunaUi.cs</DependentUpon>
